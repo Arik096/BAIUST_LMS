@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fiction">
+
+
+
+
+
+
+
+            <Button
+
+                android:id="@+id/book_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:text="Being Moral"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/book_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:text="Seven Spritis"
+                android:textSize="20sp" />
+
+    <Button
+
+        android:id="@+id/book_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Give and Take"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/book_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Our stars"
+        android:textSize="20sp" />
+
+
+    <WebView
+            android:id="@+id/simpleWebView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+
+
+
+
+
+</LinearLayout>

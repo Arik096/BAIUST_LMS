@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cse">
+
+
+
+
+    <Button
+        android:id="@+id/level11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="level-1 Term-1"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/level12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="level-1 Term-2"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/level21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="level-2 Term-1"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/level22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="level-2 Term-2"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/level31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="level-3 Term-1"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/level32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="level-3 Term-2"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/level41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="level-4 Term-1"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/level42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="level-4 Term-2"
+        android:textSize="20sp" />
+
+
+
+    <Button
+        android:id="@+id/logoutcse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Logout"
+        android:textSize="20sp" />
+
+</LinearLayout>
